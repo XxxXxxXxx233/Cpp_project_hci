@@ -1,0 +1,3 @@
+C:\Users\XX\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\201.7223.86\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\opencv_demo.dir/objects.a
+C:\MinGW_W64\mingw64\bin\ar.exe cr CMakeFiles\opencv_demo.dir/objects.a @CMakeFiles\opencv_demo.dir\objects1.rsp
+C:\MinGW_W64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\opencv_demo.dir/objects.a -Wl,--no-whole-archive  -o opencv_demo.exe -Wl,--out-implib,libopencv_demo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\opencv_demo.dir\linklibs.rsp
