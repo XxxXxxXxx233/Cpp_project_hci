@@ -12,7 +12,6 @@ message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
 include_directories(
         ${PROJECT_SOURCE_DIR}
         ${OpenCV_INCLUDE_DIRS}
-        #"C:/OpenCV_MinGW64/build/install/include/opencv2"
 
 )
 

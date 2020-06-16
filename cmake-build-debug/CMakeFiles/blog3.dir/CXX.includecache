@@ -14,6 +14,10 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/features2d.hpp
 opencv2/core/affine.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core/affine.hpp
 
+C:/OpenCV_MinGW64/build/install/include/opencv2/calib3d/calib3d.hpp
+opencv2/calib3d.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/calib3d/opencv2/calib3d.hpp
+
 C:/OpenCV_MinGW64/build/install/include/opencv2/core.hpp
 opencv2/core/cvdef.h
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core/cvdef.h
@@ -77,6 +81,20 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/core/bufferpool.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/core/check.hpp
 opencv2/core/base.hpp
 -
+
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/core.hpp
+opencv2/core.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core.hpp
+
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/core_c.h
+opencv2/core/types_c.h
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core/types_c.h
+cxcore.h
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/cxcore.h
+cxcore.h
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/cxcore.h
+opencv2/core/utility.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core/utility.hpp
 
 C:/OpenCV_MinGW64/build/install/include/opencv2/core/cuda.hpp
 opencv2/core.hpp
@@ -320,6 +338,24 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core/cvstd.hpp
 opencv2/core/matx.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core/matx.hpp
 
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/types_c.h
+ipl.h
+-
+ipl/ipl.h
+-
+opencv2/core/cvdef.h
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core/cvdef.h
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+float.h
+-
+opencv2/core.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core.hpp
+
 C:/OpenCV_MinGW64/build/install/include/opencv2/core/utility.hpp
 opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core.hpp
@@ -403,6 +439,10 @@ opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core.hpp
 opencv2/flann/miniflann.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/flann/miniflann.hpp
+
+C:/OpenCV_MinGW64/build/install/include/opencv2/features2d/features2d.hpp
+opencv2/features2d.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/features2d/opencv2/features2d.hpp
 
 C:/OpenCV_MinGW64/build/install/include/opencv2/flann.hpp
 opencv2/core.hpp
@@ -838,6 +878,10 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/imgcodecs.hpp
 opencv2/videoio.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/videoio.hpp
 
+C:/OpenCV_MinGW64/build/install/include/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/highgui/opencv2/highgui.hpp
+
 C:/OpenCV_MinGW64/build/install/include/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core.hpp
@@ -845,6 +889,14 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc.hpp
 opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core.hpp
+
+C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc/opencv2/imgproc.hpp
+
+C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc/types_c.h
+opencv2/core/core_c.h
+C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc/opencv2/core/core_c.h
 
 C:/OpenCV_MinGW64/build/install/include/opencv2/ml.hpp
 opencv2/core.hpp
@@ -1252,11 +1304,35 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/videostab/opencv2/videostab/glob
 opencv2/videostab/log.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/videostab/opencv2/videostab/log.hpp
 
-C:/Users/XX/CLionProjects/hci_project/main.cpp
+C:/Users/XX/CLionProjects/hci_project/blog3.cpp
+tchar.h
+-
 iostream
 -
-opencv2/opencv.hpp
+vector
 -
-windows.h
+string
+-
+list
+-
+map
+-
+stack
+-
+opencv2/core/core.hpp
+-
+opencv2/features2d/features2d.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/calib3d/calib3d.hpp
+-
+opencv2/imgproc/types_c.h
+-
+Windows.h
+-
+time.h
 -
 

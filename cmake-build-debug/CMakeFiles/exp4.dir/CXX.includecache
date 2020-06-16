@@ -78,6 +78,10 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/core/check.hpp
 opencv2/core/base.hpp
 -
 
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/core.hpp
+opencv2/core.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core.hpp
+
 C:/OpenCV_MinGW64/build/install/include/opencv2/core/cuda.hpp
 opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/core/opencv2/core.hpp
@@ -838,6 +842,10 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/imgcodecs.hpp
 opencv2/videoio.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/videoio.hpp
 
+C:/OpenCV_MinGW64/build/install/include/opencv2/highgui/highgui.hpp
+opencv2/highgui.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/highgui/opencv2/highgui.hpp
+
 C:/OpenCV_MinGW64/build/install/include/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core.hpp
@@ -845,6 +853,10 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc.hpp
 opencv2/core.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/opencv2/core.hpp
+
+C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+C:/OpenCV_MinGW64/build/install/include/opencv2/imgproc/opencv2/imgproc.hpp
 
 C:/OpenCV_MinGW64/build/install/include/opencv2/ml.hpp
 opencv2/core.hpp
@@ -1252,11 +1264,13 @@ C:/OpenCV_MinGW64/build/install/include/opencv2/videostab/opencv2/videostab/glob
 opencv2/videostab/log.hpp
 C:/OpenCV_MinGW64/build/install/include/opencv2/videostab/opencv2/videostab/log.hpp
 
-C:/Users/XX/CLionProjects/hci_project/main.cpp
-iostream
--
+C:/Users/XX/CLionProjects/hci_project/experiment4.cpp
 opencv2/opencv.hpp
 -
-windows.h
+opencv2/highgui/highgui.hpp
+-
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
 -
 
