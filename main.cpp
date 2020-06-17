@@ -13,8 +13,6 @@ void printInfo();
 
 int getDistance(Point p1, Point p2);
 int getDistance(POINT p1, POINT p2);
-int getDot(Point p1, Point p2, Point p3);
-int getCross(Point p1, Point p2, Point p3);
 string intToString(int num);
 
 bool checkActionPoint(vector<POINT> mousePosition);
@@ -258,7 +256,7 @@ int main() {
         }
 
         curFinger = fingerTips.size();
-        fingerTipsSize.push_back(fingerTips.size());
+        fingerTipsSize.push_back(curFinger);
 
         if(!trackCenter && controlMouseByHand) {
             if(curFinger == 0 && !mouseLocked) {
@@ -350,8 +348,6 @@ int main() {
                     cout << "Stop controlling mouse" << endl;
                     controlMouseByHand = false;
                     break;
-                case 'b':   //background learning
-                    break;
             }
         }
     }
@@ -364,14 +360,6 @@ int getDistance(Point p1, Point p2) {
 
 int getDistance(POINT p1, POINT p2) {
     return (p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y);
-}
-
-int getDot(Point p1, Point p2, Point p3) {
-    return (p1.x - p2.x) * (p3.x - p2.x) + (p1.y - p2.y) * (p3.y - p2.y);
-}
-
-int getCross(Point p1, Point p2, Point p3) {
-    return (p1.x - p2.x) * (p3.y - p2.y) - (p3.x - p2.x) * (p1.y - p2.y);
 }
 
 string intToString(int num) {
